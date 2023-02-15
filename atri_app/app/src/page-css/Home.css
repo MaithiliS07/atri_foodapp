@@ -1,7 +1,7 @@
 .p-Home.Flex1 {
 display: flex;
 justify-content: space-around;
-column-gap: 30px;
+column-gap: ;
 padding-top: 20px;
 padding-bottom: 30px;
 font-family: DM Sans;
@@ -28,7 +28,7 @@ column-gap: 30px;
 }
 .p-Home.Flex3 {
 display: flex;
-justify-content: space-around;
+justify-content: flex-start;
 column-gap: 30px;
 }
 .p-Home.Flex19 {
@@ -263,12 +263,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -290,12 +288,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -324,12 +320,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -351,12 +345,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -395,12 +387,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -422,12 +412,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -456,12 +444,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -483,12 +469,10 @@ display: flex;
 padding-left: ;
 padding-right: ;
 background-color: ;
-position: relative;
+position: static;
 border-radius: 15px;
 padding-top: ;
 padding-bottom: ;
-left: 60px;
-top: 60px;
 flex-direction: column;
 align-items: center;
 row-gap: 10px;
@@ -510,7 +494,7 @@ display: flex;
 column-gap: 30px;
 justify-content: center;
 padding-bottom: 200px;
-padding-top: 50px;
+padding-top: ;
 }
 .p-Home.Flex163 {
 display: flex;
@@ -606,7 +590,7 @@ display: flex;
 .p-Home.Flex182 {
 display: flex;
 column-gap: 30px;
-padding-top: 50px;
+padding-top: 60px;
 }
 .p-Home.Flex183 {
 display: flex;
@@ -881,7 +865,7 @@ align-items: flex-start;
 justify-content: flex-start;
 row-gap: 13px;
 width: 40%;
-padding-right: 50px;
+padding-right: ;
 }
 .p-Home.Flex231 {
 display: flex;
@@ -892,7 +876,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 row-gap: 20px;
-padding-bottom: 50px;
+padding-bottom: ;
 }
 .p-Home.Flex234 {
 display: flex;
@@ -971,7 +955,7 @@ cursor: pointer;
 user-select: none;
 font-family: DM Sans;
 outline-style: none;
-align-self: center;
+align-self: auto;
 }
 .p-Home.Button3 {
 color: #000000;
@@ -991,8 +975,13 @@ border-color: #cccccc;
 cursor: pointer;
 user-select: none;
 outline-style: none;
-align-self: center;
+align-self: auto;
 font-family: DM Sans;
+}
+.p-Home.TextBox13 {
+width: 70%;
+font-size: 18px;
+color: #757575;
 }
 .p-Home.TextBox11 {
 font-family: DM Sans;
@@ -1002,11 +991,6 @@ font-weight: 700;
 font-family: DM Sans;
 font-weight: 700;
 color: #FF7629;
-}
-.p-Home.TextBox13 {
-width: 70%;
-font-size: 18px;
-color: #757575;
 }
 .p-Home.Button6 {
 color: #000000;
@@ -1048,7 +1032,7 @@ cursor: pointer;
 user-select: none;
 outline-style: none;
 font-family: DM Sans;
-align-self: center;
+align-self: auto;
 }
 .p-Home.Image4 {
 width: 400px;
@@ -1090,12 +1074,13 @@ font-size: 20px;
 }
 .p-Home.TextBox30 {
 padding-left: 30px;
-padding-top: 10px;
+padding-top: ;
 width: 200px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 17px;
 color: #676767;
+padding-right: 10px;
 }
 .p-Home.TextBox31 {
 font-family: DM Sans;
@@ -1113,12 +1098,13 @@ font-size: 20px;
 }
 .p-Home.TextBox27 {
 padding-left: 30px;
-padding-top: 10px;
+padding-top: ;
 width: 200px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 17px;
 color: #676767;
+padding-right: 10px;
 }
 .p-Home.TextBox28 {
 font-family: DM Sans;
@@ -1134,12 +1120,13 @@ color: #FF7629;
 }
 .p-Home.TextBox33 {
 padding-left: 30px;
-padding-top: 10px;
+padding-top: ;
 width: 200px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 17px;
 color: #676767;
+padding-right: 10px;
 }
 .p-Home.TextBox34 {
 font-family: DM Sans;
@@ -1159,12 +1146,13 @@ font-size: 20px;
 }
 .p-Home.TextBox36 {
 padding-left: 30px;
-padding-top: 10px;
+padding-top: ;
 width: 200px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 17px;
 color: #676767;
+padding-right: 10px;
 }
 .p-Home.TextBox37 {
 font-family: DM Sans;
@@ -1191,7 +1179,7 @@ cursor: pointer;
 user-select: none;
 outline-style: none;
 font-family: DM Sans;
-align-self: center;
+align-self: auto;
 }
 .p-Home.Button16 {
 color: #000000;
@@ -1212,7 +1200,7 @@ cursor: pointer;
 user-select: none;
 outline-style: none;
 font-family: DM Sans;
-align-self: center;
+align-self: auto;
 }
 .p-Home.Image24 {
 width: 460px;
@@ -1300,7 +1288,7 @@ user-select: none;
 outline-width: %;
 outline-style: none;
 font-family: DM Sans;
-align-self: center;
+align-self: auto;
 }
 .p-Home.TextBox58 {
 font-family: DM Sans;
@@ -1531,13 +1519,14 @@ padding-right: 25px;
 font-size: 16px;
 border-radius: 50px;
 outline: none;
-font-weight: 400;
+font-weight: 500;
 text-align: center;
 border-width: 1px;
 border-style: solid;
 border-color: #cccccc;
 cursor: pointer;
 user-select: none;
+font-family: DM Sans;
 }
 .p-Home.Button23 {
 color: #ffffff;
@@ -1715,7 +1704,7 @@ cursor: pointer;
 user-select: none;
 outline-style: none;
 font-family: DM Sans;
-align-self: center;
+align-self: auto;
 }
 .p-Home.Button27 {
 color: #000000;
@@ -1765,8 +1754,8 @@ padding-right: 10px;
 font-family: DM Sans;
 font-weight: 700;
 font-size: 26px;
-left: 20px;
-right: 10px;
+padding-left: 20px;
+padding-right: 10px;
 }
 .p-Home.TextBox163 {
 font-family: DM Sans;
@@ -1919,7 +1908,7 @@ cursor: pointer;
 user-select: none;
 outline-style: none;
 font-family: DM Sans;
-align-self: flex-start;
+align-self: auto;
 width: 40%;
 }
 .p-Home.TextBox177 {

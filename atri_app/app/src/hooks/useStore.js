@@ -506,6 +506,18 @@ const desktopModeProps = {
         ]
       }
     },
+    "TextBox13": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "TextBox11": {
       "custom": {
         "text": "The best place to"
@@ -521,18 +533,6 @@ const desktopModeProps = {
     "TextBox12": {
       "custom": {
         "text": "eat burgers in LA."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox13": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam."
       },
       "callbacks": {
         "onClick": [
@@ -2070,7 +2070,7 @@ const desktopModeProps = {
     },
     "Button28": {
       "custom": {
-        "text": "Order online"
+        "text": "Book a table"
       },
       "callbacks": {
         "onClick": [
@@ -2209,7 +2209,7 @@ const desktopModeProps = {
     "Input10": {
       "custom": {
         "value": "",
-        "placeholder": "Do you have any note for us?"
+        "placeholder": "Do you have any note for us ?"
       },
       "callbacks": {}
     },
@@ -2579,7 +2579,7 @@ const desktopModeProps = {
     },
     "TextBox200": {
       "custom": {
-        "text": "Pages"
+        "text": "Utility"
       },
       "callbacks": {
         "onClick": [
